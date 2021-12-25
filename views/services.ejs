@@ -1,0 +1,89 @@
+<!Doctype html>
+
+<html>
+
+<head>
+
+<title><%=pageTitle%></title>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="../public/css/style1.css"/>
+
+</head>
+
+<body>
+
+    <%-include('./partials/menu')%>
+    <div class="container-fluid">
+        <div class="row">
+             <div class="col-12" id="picTitle">
+              <h1><%=pageTitle%></h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="services">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 " >
+                        <div>
+                            <img   id="serv1" src="../public/images/loisir.jpg" class="choix"/>
+                        </div>
+                        <div>
+                            <h2>Loisir</h2>
+                            <p>Mariage ou Escapade romantique !</p>
+                            <button type="submit" class="col-6 btn  ">En savoir +...</button>
+                        </div>
+                    </div>
+                    <div class=" col-sm-6  col-md-6 col-lg-6 col-xl-4 choix">
+                        <div>
+                            <img id="serv2" src="../public/images/film.jpg" class="choix"/>
+                        </div>
+                        <div>
+                            <h2>Film</h2>
+                            <p>Pour vos productions de films</p>
+                            <button type="submit" class="col-6 btn ">En savoir +...</button>
+                        </div>
+                      
+                    </div>
+                    <div  class="col-sm-6  col-md-6 col-lg-6 col-xl-4 choix3">
+                        <div>
+                            <img id="serv3" src="../public/images/grade.jpg" class="choix"/>
+                        </div>
+                        <div>
+                            <h2>GRADUATION</h2>
+                            <p>Pour nouveaux gradués</p>
+                            <button type="submit" class="btn">En savoir +...</button>
+                        </div>
+                    </div>
+                    <div  class="col-sm-6  col-md-6 col-lg-6 col-xl-4 choix4">
+                        <div>
+                            <img id="serv4" src="../public/images/courtoisie.jpg" class="choix"/>
+                        </div>
+                        <div>
+                            <h2>COURTOISIE</h2>
+                            <p>Des voitures de courtoisie</p>
+                            <button type="submit" class="col-6 btn ">En savoir +...</button>
+                        </div>
+                    </div>
+                    <div   class="col-sm-6  col-md-6 col-lg-6 col-xl-4 choix5">
+                        <div>
+                            <img id="serv5" src="../public/images/rally.jpg" class="choix"/>
+                        </div>
+                        <div>
+                            <h2>RALLY </h2>
+                            <p>L'Expéreience Rally avec des voitures de Luxe</p>
+                            <button type="submit" class="col-6 btn ">En savoir +...</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <%-include('./partials/footer')%>
+</body>
+
+</html>

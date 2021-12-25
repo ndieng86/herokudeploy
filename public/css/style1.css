@@ -1,0 +1,494 @@
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    padding:0;
+    font-size: 12px;
+    background-color:#000;
+    
+}
+#topRetour {
+    position: fixed;
+    bottom: 125px;
+    right: 25px;
+    display: none;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 14px;
+}
+#copyrigth{
+    text-align: center;
+    color: #fff;
+}
+.bg-darck{
+    background-color: #000;
+}
+/*#343a40*/
+#header{
+    font-weight:bold;
+    position: static;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+    width:98%;
+    margin:0;
+    padding:0;
+}
+.navbar-brand img{
+    float: left;
+    width:20%;
+}
+.nav-link{
+    font-size: 14px;
+    color:#eb4034;
+    color:#fff;
+}
+ul, ul li{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+#logo img{
+    float:left;
+    height:100px;
+}
+#entete{
+    color:#eb4034;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top:25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#entete p:first-child{
+    float: left;
+    margin-right:1%;
+}
+#entete p:last-child{
+    color:#fff;
+    text-align: left;
+}
+
+#nav ul li{
+    list-style-type:none;
+    float:left;
+    color:#fff;
+}
+#nav ul li a{ 
+   text-decoration:none;
+   color:#fff;
+}
+#nav ul li a:hover{
+    color:#eb4034;
+}
+
+#picTitle{
+    color:#fff;
+    font-weight: bold;
+    font-size:40px;
+    height:60px;
+    border-top:#fff solid 3px;
+    border-bottom:#fff solid 3px;   
+}
+#slider{
+    margin-bottom: 30px;
+}
+#indexContent{
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.jumbotron .btn{
+    border: #000 1px solid;
+    color:#000;
+    width:50%;
+
+}
+#ShowCar{
+    text-align: center;
+}
+#galery{
+  margin-top:50px;  
+}
+#footer{
+    color:#fff;
+    margin-top: 30px;
+    text-align: left;
+    border-top: 2px solid #fff;
+    padding-top: 20px;
+}
+#footer  h4{
+  color:#fff;
+}
+#footer #icon-contact{
+    width:12px;
+    height:10px;
+    margin-right:2px;
+}
+#icon-social{
+    width:10%;
+    height:32px;
+    float: left;
+    margin-right:0.5%;
+    background-color:#343a40 ;
+    opacity: 0.5;
+}
+#icon-social:hover{
+   opacity: 1;
+}
+#footer a{
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+}
+#footer div ul li{
+   
+    text-align: left;
+}
+#footer .col-3{
+   text-align: left;
+}
+#footer a:hover{
+    color: #eb4034;
+
+}
+
+  
+#galery  img:hover {
+    transform: scale(1.5);
+    z-index: 1; 
+  }
+#galery{
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.fa fa-facebook-square{
+    color:#fff;
+}
+form{
+    width:70%;
+    color:#fff;
+    margin-top:50px;
+}
+form label{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* contact*/
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    
+}
+form .btn{
+   border: 1px solid #fff;
+   color:#fff;
+}
+form .btn:hover{
+    border: 1px solid #fff;
+    background-color: #fff;
+    color:#000;
+    font-weight: bold;
+ }
+/*fin*/
+#services{
+
+    text-align: center;
+}
+ .btn{
+    font-size: 13px;
+    color:azure;
+    border: 1px solid #fff;
+}
+.btn:hover{
+    color:#000;
+    background-color: #fff;
+    font-weight: bold;
+}
+#services .btn:hover{
+    color:#000;
+    background-color: #fff;
+}
+#services p{
+    font-size: 12px;
+    color: #fff;
+}
+
+#services h2{
+    color: #fff;
+}
+#services img{
+    opacity: 0.5;
+}
+.carousel-caption h1{
+    font-size: 85px;
+    font-family:'open sans';
+    font-style: normal;
+
+    letter-spacing: 0;
+}
+
+/*fin hover Effect voiture*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+  
+   
+    
+    #footer #icon-contact{
+        width:10%;
+        height:10px;
+        margin-right:2px;
+    }
+    #icon-social{
+        width:7%;
+        height:26px;
+        margin-bottom: 50px;
+    }
+    #icon-social:hover{
+       opacity: 1;
+    }
+    .carousel-caption h1{
+        font-size: 32px;
+        font-family:'open sans';
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+    }
+    .navbar a img{
+        width:40%;
+        margin-left:auto;
+        margin-right:auto;
+        
+    }
+    #services .col-xs-6 {
+        width:35%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #services img{
+        width:100%;
+        margin-top:50px;
+
+    }
+    #services .btn{
+        font-size: 12px;
+    }
+    #services div h2{
+        font-size: 20px;
+    }
+    #footer h2{
+        font-size:20px;
+    }
+
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #footer #icon-contact{
+        width:5%;
+        height:20px;
+        margin-bottom:10px;
+    }
+    #icon-social{
+        width:7%;
+        height:20px;
+        margin-bottom: 50px;
+    }
+    .carousel-caption h1{
+        font-size: 55px;
+        font-family:'open sans';
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+    }
+    .carousel-caption {
+        margin-bottom: 10px;
+    }
+
+    #footer h2{
+        font-size:22px;
+        width:100%;
+        color:#fff;
+    }
+    #services .col-xs-6 {
+        width:35%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #services img{
+        width:100%;
+        margin-top:50px;
+
+    }
+    #services .btn{
+        font-size: 12px;
+        width:60%;
+    }
+    #services div h2{
+        font-size: 20px;
+    }
+  
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #footer #icon-contact{
+        width:9%;
+        height:18px;
+        margin-bottom:10px;
+    }
+    #icon-social{
+        width:7%;
+        height:20px;
+        margin-bottom: 50px;
+    }
+    .carousel-caption h1{
+        font-size: 30px;
+        font-family:'open sans';
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+    }
+    .carousel-caption {
+        margin-bottom: 10px;
+    }
+
+    #footer h2{
+        font-size:22px;
+        width:100%;
+    }
+    #services .col-xs-6 {
+        width:35%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #services img{
+        width:100%;
+        margin-top:50px;
+
+    }
+    #services .btn{
+        font-size: 14px;
+        color: #fff;
+        width:60%;
+    }
+    #services div h2{
+        font-size: 20px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .carousel-caption h1{
+        font-size: 70px;
+        font-family:'open sans';
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+    }
+    .carousel-caption {
+        margin-bottom: 50px;
+    }
+
+    #footer h2{
+        font-size:24px;
+        width:100%;
+    }
+    #services .col-xs-6 {
+        width:35%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #services img{
+        width:100%;
+        margin-top:50px;
+
+    }
+    #services .btn{
+        font-size: 12px;
+        color: #fff;
+        width:60%;
+    }
+    #services div h2{
+        font-size: 20px;
+    }
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+    #footer #icon-contact{
+        width:9%;
+        height:18px;
+        margin-bottom:10px;
+    }
+    #icon-social{
+        width:5%;
+        height:25px;
+        margin-bottom: 50px;
+    }
+
+    .carousel-caption h1{
+        font-size: 95px;
+        font-family:'open sans';
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+    }
+    .carousel-caption {
+        margin-bottom: 100px;
+    }
+    footer .container-fluid{
+       
+    }
+    #footer h2{
+        margin-top:30px;
+        font-size:30px;
+        width:100%;
+    }
+    #footer p{
+       font-size: 14px;
+    }
+    #services .col-xs-6 {
+        width:35%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #services img{
+        width:100%;
+        margin-top:50px;
+        margin-bottom: 20px;
+
+    }
+    #services .btn{
+        font-size: 13px;
+        color: #fff;
+        width:30%;
+    }
+    #services div h2{
+        font-size: 30px;
+    }
+ }

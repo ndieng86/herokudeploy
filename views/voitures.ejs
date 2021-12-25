@@ -1,0 +1,43 @@
+<!Doctype html>
+
+<html>
+
+<head>
+
+  <title><%=pageTitle%></title>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="../public/css/style1.css" />
+
+</head>
+
+<body>
+
+  <%-include('./partials/menu')%>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-xl-12 d-block" id="picTitle">
+        <h1><%=pageTitle%></h1>
+      </div>
+    </div>
+    <div class="row" id="galery">
+            <img class="col-xs-12 col-sm-12  col-md-6 col-lg-4 col-xl-4" src="../public/images/imm4.jpg" data-action="zoom"/>  
+            <img class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" src="../public/images/imm8.jpg" data-action="zoom"/> 
+            <img class="col-xs-12 col-sm-12  col-md-6 col-lg-4 col-xl-4" src="../public/images/imm1.jpg" data-action="zoom"/>  
+            <img class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" src="../public/images/imm5.jpg" data-action="zoom"/> 
+            <img class="col-xs-12 col-sm-12  col-md-6 col-lg-4 col-xl-4" src="../public/images/imm3.jpg" data-action="zoom"/>  
+            <img class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" src="../public/images/imm6.jpg" data-action="zoom"/> 
+            <img class="col-xs-12 col-sm-12  col-md-6 col-lg-4 col-xl-4" src="../public/images/imm9.png" data-action="zoom"/>  
+            <img class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" src="../public/images/imm10.jpg" data-action="zoom"/> 
+            <img class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" src="../public/images/imm7.jpg" data-action="zoom"/> 
+ 
+  </div>
+  <div class="row" >
+    <div class="col-12" id="ShowCar"><button type="submit" class="btn">Afficher Plus</button></div>
+  </div>
+    <%-include('./partials/footer')%>
+</body>
+
+</html>

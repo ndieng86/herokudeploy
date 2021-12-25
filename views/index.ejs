@@ -1,0 +1,126 @@
+<!Doctype html>
+
+<html>
+
+<head>
+
+  <title><%=pageTitle%></title>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/bootstrap-social.css" />
+    <link rel="stylesheet" href="../public/css/style1.css" />
+
+</head>
+
+<body>
+  <%-include('./partials/menu')%>
+  <div class="container-fluid" id="contenu">
+    <div class="row" id="slider" class="rounded">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-2"
+          class="carousel slide carousel-fade z-depth-1-half
+          data-ride="carousel">
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+          </ol>
+          <!--/.Indicators-->
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="view">
+                <img class="d-block w-100" src="../public/images/imm4.jpg" alt="First slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption d-md-block" id="caption">
+                <h1>Location de <br>voitures de Prestige</h1>
+                <p>Vivez le reve...a partir de XXX $ par jour</p>
+                <a href="#"><button class="btn"  id="savoir">En savoir
+                  plus...</button></a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view">
+                <img class="d-block w-100" src="../public/images/imm8.jpg" alt="Second slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption d-md-block" id="caption">
+                <h1>Location de <br>voitures de Prestige</h1>
+                <p>Vivez le reve...a partir de XXX $ par jour</p>
+                <a href="#"></a><button class="btn" type="submit" >En savoir
+                  plus...</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view">
+                <img class="d-block w-100" src="../public/images/imm1.jpg" alt="Third slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption d-none d-md-block" id="caption">
+                <h1>Location de <br>voitures de Prestige</h1>
+                <p>Vivez le reve...a partir de XXX $ par jour</p>
+                <a href="#"></a><button class="btn" type="submit" >En savoir
+                  plus...</button>
+              </div>
+            </div>
+          </div>
+          <!--/.Slides-->
+          <!--Controls-->
+          <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!--/.Controls-->
+        </div>
+    </div>
+    </div>
+    <div class="row" >
+      <div class="col-12" id="indexContent"><h2>Temoignages</h2></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 ">
+        <div class="jumbotron">
+          <h1 class="display-4">"Louis J.Badji</h1>
+          <p class="lead">Je recommande cette succursale sur Montréal. Le personnel est très accueillant et les véhicules sont top!</p>
+          <p class="lead">
+            <a class="btn  btn-lg" href="#" role="button">En savoir+</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 ">
+        <div class="jumbotron">
+          <h1 class="display-4">Marc Grenier</h1>
+          <p class="lead">Je recommande , service parfait !Courtoisie exceptionnelle. <br>Meilleurs prix de l'industrie!</p>
+          <p class="lead">
+            <a class="btn  btn-lg" href="#" role="button">En savoir+</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 ">
+        <div class="jumbotron">
+          <h1 class="display-4">Mylene C</h1>
+          <p class="lead">nous avons loué une Jeep avec des amis et avons été satisfait des services de Luxe Rental. Excellent service</p>
+          <p class="lead">
+            <a class="btn  btn-lg" href="#" role="button">En savoir+</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    <%-include('./partials/footer')%>
+</body>
+
+</html>

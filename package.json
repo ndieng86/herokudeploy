@@ -1,0 +1,16 @@
+{
+  "name": "projetweb",
+  "version": "1.0.0",
+  "description": "projet web responsive",
+  "main": "projetWeb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ndianko dieng",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1"
+  }
+}
