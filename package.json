@@ -4,7 +4,7 @@
   "description": "projet web responsive",
   "main": "projetWeb.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node projetWeb.js
   },
   "author": "ndianko dieng",
   "license": "ISC",
