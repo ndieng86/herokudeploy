@@ -1,10 +1,10 @@
 {
-  "name": "projetweb",
+  "name": "luxrental",
   "version": "1.0.0",
-  "description": "projet web responsive",
-  "main": "projetWeb.js",
+  "description": "luxrental",
+  "main": "server.js",
   "scripts": {
-    "start": "node projetWeb.js"
+    "start": "node server.js"
   },
   "author": "ndianko dieng",
   "license": "ISC",
