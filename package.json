@@ -4,7 +4,7 @@
   "description": "projet web responsive",
   "main": "projetWeb.js",
   "scripts": {
-    "start": "node projetWeb.js
+    "start": "node projetWeb.js"
   },
   "author": "ndianko dieng",
   "license": "ISC",
